@@ -1,0 +1,12 @@
+.headTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskLogo {
+    width: 2rem;
+    margin-right: 0.3rem;
+    border-radius: 10%;
+}
