@@ -21,15 +21,13 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Layout/>}>
-          <Route index element={<HomeProfilePage/>}>
-
-            <Route path='tasks/*' element={<HomeTaskPage/>} />
-            <Route path='login' element={<LoginPage/>}></Route>
-            <Route path='register' element={<RegisterPage/>}></Route>
-            <Route path='linkedin' element={<LinkedInPage/>}></Route>
-            <Route path='channels' element={<CanalesPage/>}></Route>
-            <Route path='proyectos' element={<Proyectos/>}>
-            </Route>
+          <Route index element={<HomeProfilePage/>}/>
+          <Route path='tasks/*' element={<HomeTaskPage/>} />
+          <Route path='login' element={<LoginPage/>}></Route>
+          <Route path='register' element={<RegisterPage/>}></Route>
+          <Route path='linkedin' element={<LinkedInPage/>}></Route>
+          <Route path='channels' element={<CanalesPage/>}></Route>
+          <Route path='proyectos' element={<Proyectos/>}>
           </Route>
 
 
