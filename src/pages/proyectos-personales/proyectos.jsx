@@ -31,8 +31,8 @@ const Proyectos = () => {
                 <h1 style={{margin:'3rem'}}>Proyectos Personales</h1>
                 <div className='proyect-cards' style={{display:'flex', flexDirection:isColumn ? 'column' : 'row' , justifyContent:'center', alignItems:'center'}}>
                 <Card1/>
-                <Card2/>
                 <Card3/>
+                <Card2/>
                 <Card4/>
                 </div>
             </div>
